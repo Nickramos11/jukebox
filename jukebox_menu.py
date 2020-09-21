@@ -26,11 +26,3 @@ while True:
         title = songs_list[song_choice - 1][SONG_TITLE_INDEX]
         print("Playing {}".format(title))
     print("=" * 40)
-
-
-# # same as line 8 but more strung out
-#     for index, value in enumerate(albums):
-#         title, artist, year, songs = value
-#         print(index, title, artist, year, songs)
-
-
